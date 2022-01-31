@@ -7,7 +7,7 @@ def read():
     f.close()
     return data
 
-def drive(data):
+def dive(data):
     j=0
     k=0
     forward=0
@@ -21,5 +21,5 @@ def drive(data):
             k-=int(data[i][1])
     return forward*j
     
-print(drive(read()))
+print(dive(read()))
 #read()

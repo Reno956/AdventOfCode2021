@@ -7,7 +7,7 @@ def sonar(data):
 
 def read():
     data = []
-    f = open ('data.txt','r')
+    f = open ('Day1\data.txt','r')
     text = f.readlines()
     for line in text:
         data.append(int(line.strip()))
